@@ -88,7 +88,7 @@ def main():
     #Acessando o pixel da linha e coluna (0,0)
     print(img[0, 0])
     
-    #Acessando o primeiro Byte(B) da linha e coluna (0, 0)
+    #Acessando o primeiro Byte(Cor Azul) da linha e coluna (0, 0)
     #O opencv representa na seguinte Ordem : BGR e não RGB
     print(img[0, 0, 0])
     #Ou se preferir
