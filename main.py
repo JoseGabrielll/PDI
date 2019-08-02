@@ -85,7 +85,7 @@ def main():
     #Lendo Imagem e obtendo a Matriz
     img = LerImagem("aguia.jpg");
     
-    #Acessando os pixels da linha e coluna (0,0)
+    #Acessando o pixel da linha e coluna (0,0)
     print(img[0, 0])
     
     #Acessando o primeiro Byte(B) da linha e coluna (0, 0)
